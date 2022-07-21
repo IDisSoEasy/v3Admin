@@ -3,7 +3,7 @@ import { useUserStore } from '@store/user';
 
 const userStore = useUserStore()
 
-function changeName() {
+const changeName = () => {
   userStore.updateName('李四' + Math.random())
 }
 </script>
